@@ -1,0 +1,16 @@
+[19:29:53.720] [INFO] storybook v10.1.0
+[19:29:53.887] [ERROR] [38;2;241;97;97mSB_CORE-COMMON_0002 (InvalidFrameworkNameError): Invalid value of '@storybook/react' in the 'framework' field of Storybook config.
+
+Please run 'npx storybook automigrate' to automatically fix your config.
+
+More info: https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#new-framework-api
+[39m
+    at validateFrameworkName (file:///C:/Users/antho/AppData/Local/npm-cache/_npx/6fe9a9991b157df1/node_modules/storybook/dist/_node-chunks/chunk-3H6TSCUK.js:12117:11)
+    at buildDevStandalone (file:///C:/Users/antho/AppData/Local/npm-cache/_npx/6fe9a9991b157df1/node_modules/storybook/dist/core-server/index.js:7524:28)
+    at async withTelemetry (file:///C:/Users/antho/AppData/Local/npm-cache/_npx/6fe9a9991b157df1/node_modules/storybook/dist/_node-chunks/chunk-SF2DKOPT.js:205:12)
+    at async dev (file:///C:/Users/antho/AppData/Local/npm-cache/_npx/6fe9a9991b157df1/node_modules/storybook/dist/bin/core.js:2734:3)
+    at async _Command.<anonymous> (file:///C:/Users/antho/AppData/Local/npm-cache/_npx/6fe9a9991b157df1/node_modules/storybook/dist/bin/core.js:2795:92)
+[19:29:53.890] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
+[19:29:58.149] [PROMPT] Would you like to send anonymous crash reports to improve Storybook and fix bugs faster? {"choice":true}
+[19:29:58.152] [INFO] Storybook collects completely anonymous usage telemetry. We use it to shape Storybook's roadmap and prioritize features. You can learn more, including how to opt out, at https://storybook.js.org/telemetry
