@@ -4,7 +4,15 @@ Pequeno projeto React (Vite + TypeScript) que exibe dados de histórico meteorol
 
 ## Como rodar
 ```powershell
-npm install
+npm install && npm run dev
+```
+## Para acessar o StoryBook
+```
+cd storybook && npm install
+```
+## Para rodar o StoryBook
+```
+npm run storybook
 ```
 
 ## Notas
