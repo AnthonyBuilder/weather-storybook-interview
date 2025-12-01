@@ -10,7 +10,7 @@ export default function App() {
     <div className="min-h-screen bg-slate-50 p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-6">Weather History</h1>
-        <div id="debug-visible" className="mb-4 text-sm text-slate-600">Testes de uso do app</div>
+        <div id="debug-visible" className="mb-4 text-sm text-slate-600">Tests for use</div>
 
         <div className="flex gap-3 mb-4">
           <button className="px-3 py-1 border rounded" onClick={() => setLoading((v) => !v)}>{loading ? 'Stop loading' : 'Loading'}</button>
